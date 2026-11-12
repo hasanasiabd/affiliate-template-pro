@@ -1,0 +1,20 @@
+{
+  "_fileInfo": {
+    "file": "data/aiConfig.json",
+    "purpose": "ফ্লোটিং Gemini AI শপিং এজেন্টের অন/অফ সুইচ, ওয়েলকাম মেসেজ এবং রেট লিমিট নিয়ন্ত্রণ করা।",
+    "whereUsed": "src/components/chat/, src/app/api/chat/route.ts এবং অ্যাডমিন প্যানেলে।",
+    "editGuide": "চ্যাটবট সাময়িকভাবে বন্ধ রাখতে চাইলে enableAiAgent এর মান false করে দিন।"
+  },
+  "enableAiAgent": true,
+  "agentName": "Gear Concierge AI",
+  "welcomeMessage": "Hi! I am your AI Gear Assistant. Looking for the best coding keyboard, ergonomic mouse, or monitor within your budget? Ask me anything!",
+  "quickPrompts": [
+    "Best mouse for long coding sessions?",
+    "Top mechanical keyboard under $100?",
+    "Compare wireless vs wired mice for work",
+    "Best budget monitor for programming?"
+  ],
+  "maxMessagesPerMinute": 5,
+  "maxInputLength": 300,
+  "customSystemRules": "Always prioritize user ergonomics and value for money. Mention both pros and cons honestly before recommending a product link."
+}

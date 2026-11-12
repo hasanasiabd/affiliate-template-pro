@@ -1,0 +1,32 @@
+{
+  "_fileInfo": {
+    "file": "data/clickStats.json",
+    "purpose": "কোন প্রোডাক্টের অ্যামাজন বাটনে কতগুলো ক্লিক পড়েছে তার লোকাল রেকর্ড রাখা।",
+    "whereUsed": "src/app/api/track-click/route.ts এবং অ্যাডমিন ড্যাশবোর্ডে (/admin)।",
+    "editGuide": "এই ফাইলটি সিস্টেম অটোমেটিক আপডেট করবে। চাইলে শুরুতে 0 করে রিসেট করতে পারেন।"
+  },
+  "totalOutboundClicks": 42,
+  "productStats": {
+    "logitech-mx-master-3s-review": {
+      "productId": "prod-1",
+      "productSlug": "logitech-mx-master-3s-review",
+      "productTitle": "Logitech MX Master 3S Wireless Productivity Mouse",
+      "totalClicks": 21,
+      "lastClickedAt": "2026-11-12T10:15:00Z"
+    },
+    "keychron-v1-max-mechanical-keyboard-review": {
+      "productId": "prod-2",
+      "productSlug": "keychron-v1-max-mechanical-keyboard-review",
+      "productTitle": "Keychron V1 Max QMK/VIA Wireless Custom Mechanical Keyboard",
+      "totalClicks": 14,
+      "lastClickedAt": "2026-11-12T09:40:00Z"
+    },
+    "benq-screenbar-halo-monitor-light-review": {
+      "productId": "prod-3",
+      "productSlug": "benq-screenbar-halo-monitor-light-review",
+      "productTitle": "BenQ ScreenBar Halo LED Monitor Light Bar with Wireless Controller",
+      "totalClicks": 7,
+      "lastClickedAt": "2026-11-11T19:20:00Z"
+    }
+  }
+}

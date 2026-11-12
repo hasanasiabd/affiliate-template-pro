@@ -1,0 +1,27 @@
+{
+  "_fileInfo": {
+    "file": "data/siteConfig.json",
+    "purpose": "সাইটের মূল নাম, গ্লোবাল অ্যামাজন ট্যাগ, ডিসক্লোজার এবং লেখকের তথ্য সংরক্ষণ করা।",
+    "editGuide": "এখানে amazonAssociateTag পরিবর্তন করলে পুরো সাইটের সব প্রোডাক্ট লিংকে স্বয়ংক্রিয়ভাবে নতুন ট্যাগ বসে যাবে।"
+  },
+  "siteName": "DevGear Reviews",
+  "siteTagline": "Honest, Tested Tech & Desk Gear for Developers and Creators",
+  "siteDescription": "In-depth reviews, real-world testing, and side-by-side comparisons of mechanical keyboards, ergonomic mice, and coding monitors.",
+  "siteUrl": "https://reviews.hasanasiabd.me",
+  "logoText": "DevGear",
+  "amazonAssociateTag": "devgear2026-20",
+  "disclosureText": "As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.",
+  "defaultTheme": "dark",
+  "contactEmail": "contact@hasanasiabd.me",
+  "author": {
+    "name": "Md. Hasan",
+    "role": "Lead Tech Reviewer & Full-Stack Developer",
+    "bio": "Full-stack developer and hardware enthusiast testing productivity gear, ergonomic peripherals, and budget desk setups for daily coding workflows.",
+    "avatarUrl": "/images/brand/author-avatar.webp",
+    "socials": {
+      "github": "https://github.com/hasanasiabd",
+      "linkedin": "https://linkedin.com/in/hasanasiabd",
+      "twitter": "https://x.com/hasanasiabd"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fileInfo": {
+    "file": "data/faqs.json",
+    "purpose": "সাইটের হোমপেজ ও অ্যাবাউট পেজের সাধারণ প্রশ্নোত্তর (General FAQs) সংরক্ষণ করা।",
+    "whereUsed": "হোমপেজ FAQ সেকশন এবং FAQPage JSON-LD স্কিমা জেনারেটরে।",
+    "editGuide": "নতুন প্রশ্ন যোগ করতে faqs অ্যারেতে question এবং answer যোগ করুন।"
+  },
+  "faqs": [
+    {
+      "question": "How do you select and test the tech products on this site?",
+      "answer": "Every peripheral and desk accessory featured on DevGear Reviews is evaluated based on real-world developer workflows—including coding ergonomics, Linux/Windows/macOS compatibility, build durability, and long-term value for money."
+    },
+    {
+      "question": "Does clicking an Amazon link cost me anything extra?",
+      "answer": "No, never. When you click our 'Check Price on Amazon' buttons, the product price remains 100% identical to going to Amazon directly. Amazon simply pays us a small referral commission from their own share."
+    },
+    {
+      "question": "Why don't you display live exact cents on every product button?",
+      "answer": "Amazon updates product prices and lightning deals dynamically every few hours. In strict compliance with the Amazon Associates Operating Agreement, we display verified baseline pricing with timestamps and encourage checking live discounts directly on Amazon."
+    },
+    {
+      "question": "Can I use the AI Gear Concierge to compare products?",
+      "answer": "Yes! Click the 'Ask AI Assistant' button in the bottom-right corner and tell it your budget, hand size, or operating system. It will analyze our catalog and suggest the best match."
+    }
+  ]
+}

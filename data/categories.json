@@ -1,0 +1,45 @@
+{
+  "_fileInfo": {
+    "file": "data/categories.json",
+    "purpose": "সাইটের সব প্রোডাক্ট ক্যাটাগরি এবং ফিল্টারিং অপশন সংরক্ষণ করা।",
+    "whereUsed": "হোমপেজ ফিল্টার বার (CategoryPills.tsx) এবং প্রোডাক্ট ম্যানেজমেন্ট ফরমে।",
+    "editGuide": "নতুন ক্যাটাগরি যোগ করতে চাইলে categories অ্যারের ভেতর নতুন অবজেক্ট যোগ করুন। iconName অবশ্যই Lucide Icons-এর নামের সাথে মিলতে হবে।"
+  },
+  "categories": [
+    {
+      "id": "cat-all",
+      "name": "All Gear",
+      "slug": "all",
+      "description": "Browse all our tested tech & desk setup recommendations.",
+      "iconName": "Sparkles"
+    },
+    {
+      "id": "cat-mouse",
+      "name": "Ergonomic Mice",
+      "slug": "mouse",
+      "description": "Precision wireless and ergonomic mice for coding and productivity.",
+      "iconName": "Mouse"
+    },
+    {
+      "id": "cat-keyboard",
+      "name": "Keyboards",
+      "slug": "keyboard",
+      "description": "Mechanical, low-profile, and split keyboards for fast typing.",
+      "iconName": "Keyboard"
+    },
+    {
+      "id": "cat-monitor",
+      "name": "Coding Monitors",
+      "slug": "monitor",
+      "description": "Eye-care 4K and ultrawide displays for sharp text clarity.",
+      "iconName": "Monitor"
+    },
+    {
+      "id": "cat-accessories",
+      "name": "Desk Accessories",
+      "slug": "accessories",
+      "description": "Monitor light bars, desk mats, and USB-C hubs.",
+      "iconName": "Headphones"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_fileInfo": {
+    "file": "data/trackingConfig.json",
+    "purpose": "Meta Pixel, Google Analytics (GA4), Clarity এবং Search Console ভেরিফিকেশন আইডি সংরক্ষণ করা।",
+    "whereUsed": "src/components/tracking/ এবং src/app/admin/pixels/page.tsx",
+    "editGuide": "অ্যাডমিন প্যানেল থেকে অথবা সরাসরি নিচের ফাঁকা কোটেশনের ভেতর আপনার ট্র্যাকিং আইডি বসালেই স্ক্রিপ্ট অটো চালু হয়ে যাবে।"
+  },
+  "enableTracking": true,
+  "metaPixelId": "",
+  "googleAnalyticsId": "",
+  "microsoftClarityId": "",
+  "googleSiteVerification": "",
+  "bingSiteVerification": ""
+}

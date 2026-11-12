@@ -1,0 +1,43 @@
+{
+  "_fileInfo": {
+    "file": "data/blogs.json",
+    "purpose": "সাইটের বায়িং গাইড এবং তুলনামূলক ব্লগ আর্টিকেলগুলো সংরক্ষণ করা।",
+    "whereUsed": "হোমপেজের ব্লগ প্রিভিউ এবং /blog পেজগুলোতে।",
+    "editGuide": "নতুন আর্টিকেল যোগ করতে blogs অ্যারের ভেতর নতুন অবজেক্ট যুক্ত করুন।"
+  },
+  "blogs": [
+    {
+      "id": "blog-1",
+      "slug": "best-ergonomic-gear-for-programmers-2026",
+      "title": "The Ultimate Ergonomic Desk Setup Guide for Programmers (2026)",
+      "excerpt": "How to prevent wrist pain, eye fatigue, and posture issues during 8-hour coding marathons with tested hardware upgrades.",
+      "coverImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop",
+      "category": "Buying Guide",
+      "readTime": "5 min read",
+      "publishedAt": "2026-11-09",
+      "updatedAt": "2026-11-12",
+      "keyTakeaways": [
+        "Switch from flat travel mice to high-arch ergonomic mice to reduce forearm pronation.",
+        "75% gasket-mounted keyboards keep your mouse closer to your shoulder alignment.",
+        "Asymmetrical monitor light bars eliminate contrast eye strain during night coding."
+      ],
+      "sections": [
+        {
+          "heading": "1. Fix Your Wrist Angle with a Sculpted Mouse",
+          "content": "Standard flat mice force your forearm bones to twist unnaturally for hours. Upgrading to a sculpted thumb-rest mouse supports your palm in a natural handshake angle while adding horizontal scrolling for wide codebases.",
+          "recommendedProductSlug": "logitech-mx-master-3s-review"
+        },
+        {
+          "heading": "2. Reclaim Desk Space with a 75% Mechanical Keyboard",
+          "content": "Full-size 100% keyboards push your mouse hand far to the right, causing shoulder pain. A 75% layout removes the rarely used numpad while retaining dedicated arrow and function keys essential for IDE debugging.",
+          "recommendedProductSlug": "keychron-v1-max-mechanical-keyboard-review"
+        },
+        {
+          "heading": "3. Protect Your Eyes During Late-Night Deployments",
+          "content": "Staring at a bright monitor in a dark room forces your pupils to constantly readjust. Mounting an asymmetrical LED light bar illuminates your desk workspace without creating a single reflection on your screen.",
+          "recommendedProductSlug": "benq-screenbar-halo-monitor-light-review"
+        }
+      ]
+    }
+  ]
+}

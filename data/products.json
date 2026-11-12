@@ -1,0 +1,233 @@
+{
+  "_fileInfo": {
+    "file": "data/products.json",
+    "purpose": "সাইটের সমস্ত প্রোডাক্টের রিভিউ, স্পেসিফিকেশন, প্রোস-কনস এবং অ্যামাজন লিংক সংরক্ষণ করা।",
+    "whereUsed": "হোমপেজ, সিঙ্গেল রিভিউ পেজ (/products/[slug]), কম্পেয়ার পেজ এবং AI এজেন্টের সিস্টেম প্রম্পটে।",
+    "editGuide": "অ্যাডমিন প্যানেল (/admin/products) থেকে অথবা সরাসরি products অ্যারের ভেতর নতুন অবজেক্ট যোগ করে প্রোডাক্ট বাড়াতে পারবেন।"
+  },
+  "products": [
+    {
+      "id": "prod-1",
+      "slug": "logitech-mx-master-3s-review",
+      "title": "Logitech MX Master 3S Wireless Productivity Mouse",
+      "brand": "Logitech",
+      "category": "mouse",
+      "tagline": "The ultimate ergonomic mouse with silent clicks and electromagnetic scrolling for developers.",
+      "price": "$99.99",
+      "priceUpdatedDate": "Nov 2026",
+      "affiliateUrl": "https://www.amazon.com/dp/B09HM94VDS",
+      "rating": 4.9,
+      "isEditorsChoice": true,
+      "badgeText": "Best for Coding",
+      "mainImage": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=800&auto=format&fit=crop",
+      "galleryImages": [
+        "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=800&auto=format&fit=crop"
+      ],
+      "quickVerdict": "The Logitech MX Master 3S remains the undisputed king of productivity mice in 2026. Its 90% quieter clicks, 8,000 DPI glass-tracking sensor, and MagSpeed scroll wheel make navigating thousands of lines of code effortless, though competitive FPS gamers should look elsewhere due to its heavy 141g weight.",
+      "buyIf": [
+        "You write code or edit timelines for 6+ hours daily and need severe wrist strain relief.",
+        "You work in a quiet environment and hate loud mechanical mouse clicks.",
+        "You switch seamlessly between Windows, Linux, and macOS setups."
+      ],
+      "skipIf": [
+        "You play competitive esports titles requiring an ultra-lightweight high-polling mouse.",
+        "You are left-handed (this is a strictly right-handed ergonomic sculpt)."
+      ],
+      "testingSummary": "Tested over 45 days across a dual-boot Windows 10 and Linux Mint workflow, scrolling through massive Next.js repositories and multi-table database schemas.",
+      "pros": [
+        "MagSpeed electromagnetic wheel scrolls 1,000 lines per second silently",
+        "8K DPI optical sensor tracks flawlessly on bare glass and glossy desks",
+        "Up to 70 days of battery life on a single USB-C full charge",
+        "Dedicated thumb scroll wheel for horizontal VS Code navigation"
+      ],
+      "cons": [
+        "141g weight feels heavy for fast gaming flicks",
+        "125Hz polling rate feels slightly less snappy on 240Hz+ monitors",
+        "Soft-touch rubber coating can show wear after heavy long-term use"
+      ],
+      "fullReviewContent": "When you spend eight to ten hours a day inside an IDE, your mouse is more than a pointer—it is an extension of your hand. The Logitech MX Master 3S refines an already legendary ergonomic silhouette by replacing loud tactile switches with Quiet Click switches that deliver satisfying feedback without the noise. During our daily coding tests, mapping the thumb wheel to horizontal scroll and the gesture button to virtual desktop switching shaved noticeable friction off daily workflows.",
+      "specs": [
+        {
+          "label": "Sensor & DPI",
+          "value": "Darkfield High Precision, 200 to 8,000 DPI",
+          "realWorldBenefit": "Tracks smoothly even on 4mm clear glass tables without a mousepad."
+        },
+        {
+          "label": "Battery Life",
+          "value": "Up to 70 days (500mAh Li-Po)",
+          "realWorldBenefit": "A quick 1-minute USB-C charge gives 3 full hours of uninterrupted work."
+        },
+        {
+          "label": "Connectivity",
+          "value": "Logi Bolt USB Receiver + Bluetooth Low Energy",
+          "realWorldBenefit": "Pair with up to 3 laptops/PCs and switch with one button press."
+        },
+        {
+          "label": "Weight",
+          "value": "141 grams",
+          "realWorldBenefit": "Planted, stable feel for precision design and coding work."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Keychron M6 Wireless",
+          "priceRange": "$49 - $55",
+          "bestFor": "Lightweight Ergonomics & 1000Hz Polling Rate",
+          "affiliateUrl": "https://www.amazon.com/dp/B0CM95264B"
+        },
+        {
+          "name": "Razer Pro Click Mini",
+          "priceRange": "$65 - $79",
+          "bestFor": "Portable Laptop Bag & Small Hands",
+          "affiliateUrl": "https://www.amazon.com/dp/B09J6J6295"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does the MX Master 3S work well on Linux?",
+          "answer": "Yes! Out of the box, Bluetooth and the Logi Bolt receiver work immediately on Ubuntu and Linux Mint. You can also use open-source tools like Solaar to customize buttons and DPI on Linux."
+        },
+        {
+          "question": "Can I use it while charging via USB-C?",
+          "answer": "Yes, you can plug in the USB-C cable and continue working normally while the battery charges."
+        }
+      ],
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "id": "prod-2",
+      "slug": "keychron-v1-max-mechanical-keyboard-review",
+      "title": "Keychron V1 Max QMK/VIA Wireless Custom Mechanical Keyboard",
+      "brand": "Keychron",
+      "category": "keyboard",
+      "tagline": "A gasket-mounted 75% mechanical keyboard with hot-swappable switches and browser-based remapping.",
+      "price": "$94.99",
+      "priceUpdatedDate": "Nov 2026",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CQ27SCZY",
+      "rating": 4.8,
+      "isEditorsChoice": true,
+      "badgeText": "Best Value 75%",
+      "mainImage": "https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=800&auto=format&fit=crop",
+      "galleryImages": [],
+      "quickVerdict": "The Keychron V1 Max brings premium custom keyboard acoustics—gasket mount, latex foam, and double-shot PBT keycaps—under $100. With full QMK/VIA browser configuration and 2.4GHz wireless connectivity, it is the smartest mechanical keyboard upgrade for programmers.",
+      "buyIf": [
+        "You want a compact 75% layout that keeps dedicated Function (F1-F12) and arrow keys.",
+        "You want to remap keys and macros directly in Chrome without installing bloated background software.",
+        "You want hot-swappable sockets to change switches easily without soldering."
+      ],
+      "skipIf": [
+        "You need a slim, low-profile keyboard that fits inside a tight laptop sleeve.",
+        "You prefer shine-through keycaps for working in pitch-black rooms."
+      ],
+      "testingSummary": "Used as the primary coding keyboard for 30 days writing TypeScript, Markdown documentation, and terminal scripts.",
+      "pros": [
+        "Gasket mount design delivers a soft, cushioned typing feel with deep acoustics",
+        "Full QMK and VIA support works natively on Windows, macOS, and Linux",
+        "Tri-mode connection: 2.4GHz dongle (1000Hz), Bluetooth 5.1, and wired USB-C",
+        "Includes a tactile rotary aluminum knob for quick volume or zoom control"
+      ],
+      "cons": [
+        "South-facing RGB LEDs are dim with the included non-shine-through PBT keycaps",
+        "High front lip may require a wrist rest for prolonged typing comfort"
+      ],
+      "fullReviewContent": "Most pre-built mechanical keyboards force you to install heavy proprietary drivers just to rebind a key. The Keychron V1 Max solves this completely with open-source QMK/VIA firmware. Simply open the VIA web app, plug in the keyboard, and customize layers or terminal shortcuts in seconds. Combined with Gateron Jupiter Banana or Brown switches, typing for hours feels effortless.",
+      "specs": [
+        {
+          "label": "Layout & Mount",
+          "value": "75% Compact (81 Keys + Knob), Polycarbonate Gasket Mount",
+          "realWorldBenefit": "Saves desk space for mouse movement while keeping arrow and function keys."
+        },
+        {
+          "label": "Switches & Keycaps",
+          "value": "Hot-swappable Gateron Jupiter + OSA Double-Shot PBT",
+          "realWorldBenefit": "Keycaps never get shiny or greasy even after years of coding."
+        },
+        {
+          "label": "Connectivity",
+          "value": "2.4GHz Wireless + Bluetooth 5.1 (3 devices) + Wired Type-C",
+          "realWorldBenefit": "Zero-lag wireless typing with instant switching between desktop and laptop."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "NuPhy Air75 V2",
+          "priceRange": "$119 - $129",
+          "bestFor": "Ultra-Slim Low-Profile Portability",
+          "affiliateUrl": "https://www.amazon.com/dp/B0CM96R95K"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it include both Mac and Windows keycaps?",
+          "answer": "Yes, Keychron includes extra Windows and macOS modifier keycaps plus a physical OS toggle switch on the back."
+        }
+      ],
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "prod-3",
+      "slug": "benq-screenbar-halo-monitor-light-review",
+      "title": "BenQ ScreenBar Halo LED Monitor Light Bar with Wireless Controller",
+      "brand": "BenQ",
+      "category": "accessories",
+      "tagline": "Eliminate night-coding eye strain and screen glare with asymmetrical desk lighting.",
+      "price": "$179.00",
+      "priceUpdatedDate": "Nov 2026",
+      "affiliateUrl": "https://www.amazon.com/dp/B08WT889V3",
+      "rating": 4.7,
+      "isEditorsChoice": true,
+      "badgeText": "Best Desk Upgrade",
+      "mainImage": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop",
+      "galleryImages": [],
+      "quickVerdict": "If you code late at night, the BenQ ScreenBar Halo is the single best investment for your eyes. Its asymmetrical optical design illuminates your keyboard and desk while casting zero glare onto your monitor screen, complete with a rear bias light and wireless puck controller.",
+      "buyIf": [
+        "You work in dim or dark rooms and experience eye fatigue after evening sessions.",
+        "You want to save desk space by removing bulky traditional desk lamps.",
+        "You use either a flat or curved monitor (includes curved monitor adapter)."
+      ],
+      "skipIf": [
+        "You are on a strict budget under $50 (consider the Quntis light bar instead).",
+        "You always work in a brightly lit room with natural daylight."
+      ],
+      "testingSummary": "Mounted on a desktop monitor setup for evening coding sessions to measure screen reflection and ambient contrast comfort.",
+      "pros": [
+        "Zero screen glare thanks to patented asymmetrical optical projection",
+        "Rear ambient bias light reduces harsh contrast between screen and wall",
+        "Stepless color temperature (2700K warm to 6500K cool) and brightness via wireless puck",
+        "Auto-dimming sensor adjusts brightness based on room lighting"
+      ],
+      "cons": [
+        "Premium price tag compared to basic USB light bars",
+        "Wireless puck takes 3 AAA batteries rather than a rechargeable USB-C cell"
+      ],
+      "fullReviewContent": "Traditional desk lamps take up valuable real estate and often create annoying bright spots on matte or glossy monitors. The BenQ ScreenBar Halo clips effortlessly on top of your display, directing light downward at an exact angle that keeps your screen pitch-black and sharp while lighting up your notes and keyboard.",
+      "specs": [
+        {
+          "label": "Color Temperature",
+          "value": "2700K (Warm) to 6500K (Cool Daylight), Ra>95 CRI",
+          "realWorldBenefit": "Use cool light for daytime focus and warm amber light before sleep."
+        },
+        {
+          "label": "Controller",
+          "value": "2.4GHz Wireless Rotary Puck",
+          "realWorldBenefit": "Adjust brightness from your desk without reaching up to the monitor."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Quntis Monitor Light Bar PRO+",
+          "priceRange": "$45 - $59",
+          "bestFor": "Budget Pick Under $60",
+          "affiliateUrl": "https://www.amazon.com/dp/B0B6P9J3J5"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I mount a webcam on top of the BenQ ScreenBar Halo?",
+          "answer": "Yes, the flat magnetic top surface of the clamp allows most standard webcams to sit securely on top."
+        }
+      ],
+      "publishedAt": "2026-11-08"
+    }
+  ]
+}
