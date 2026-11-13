@@ -12,6 +12,8 @@ import type { Metadata } from 'next';
 import productsData from '@/data/products.json';
 import siteConfigData from '@/data/siteConfig.json';
 
+import { Product } from '@/types/product.types';
+
 import { generateProductSchema } from '@/lib/schema/productSchema';
 import { generateFaqSchema } from '@/lib/schema/faqSchema';
 import { generateBreadcrumbSchema } from '@/lib/schema/breadcrumbSchema';
@@ -27,6 +29,8 @@ import AffiliateCtaButton from '@/components/product/AffiliateCtaButton';
 import ProductFaqSection from '@/components/product/ProductFaqSection';
 import StickyMobileBar from '@/components/product/StickyMobileBar';
 
+const allProducts = productsData.products as Product[];
+
 interface ProductPageProps {
   params: Promise<{ slug: string }>;
 }
@@ -35,7 +39,7 @@ interface ProductPageProps {
  * ১. বিল্ড টাইমে সব প্রোডাক্ট স্লাগের স্ট্যাটিক রাউট তৈরি করা (SSG)
  */
 export async function generateStaticParams() {
-  return productsData.products.map((product) => ({
+  return allProducts.map((product) => ({
     slug: product.slug,
   }));
 }
@@ -47,7 +51,7 @@ export async function generateMetadata({
   params,
 }: ProductPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = productsData.products.find((p) => p.slug === slug);
+  const product = allProducts.find((p) => p.slug === slug);
 
   if (!product) {
     return { title: 'Product Not Found' };
@@ -74,7 +78,7 @@ export async function generateMetadata({
  */
 export default async function ProductReviewPage({ params }: ProductPageProps) {
   const { slug } = await params;
-  const product = productsData.products.find((p) => p.slug === slug);
+  const product = allProducts.find((p) => p.slug === slug);
 
   if (!product) {
     notFound();

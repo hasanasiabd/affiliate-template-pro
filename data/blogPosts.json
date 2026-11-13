@@ -5,7 +5,7 @@
     "whereUsed": "হোমপেজের ব্লগ প্রিভিউ এবং /blog পেজগুলোতে।",
     "editGuide": "নতুন আর্টিকেল যোগ করতে blogs অ্যারের ভেতর নতুন অবজেক্ট যুক্ত করুন।"
   },
-  "blogs": [
+  "posts": [
     {
       "id": "blog-1",
       "slug": "best-ergonomic-gear-for-programmers-2026",

@@ -9,7 +9,7 @@
 import type { MetadataRoute } from 'next';
 import siteConfigData from '@/data/siteConfig.json';
 import productsData from '@/data/products.json';
-import blogPostsData from '@/data/blogPosts.json';
+  import blogPostsData from '@/data/blogPosts.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfigData.siteUrl.replace(/\/$/, '');

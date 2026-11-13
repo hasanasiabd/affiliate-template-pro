@@ -1,3 +1,5 @@
+// src/types/blog.types.ts
+
 /**
  * ============================================================================
  * ফাইল: src/types/blog.types.ts
@@ -9,6 +11,7 @@
 export interface BlogSection {
   heading: string;             // সাব-হেডিং (H2)
   content: string;             // সেকশনের বিস্তারিত লেখা
+  relatedProductSlugs?: string[];
   recommendedProductSlug?: string; // লেখার মাঝে কোনো নির্দিষ্ট প্রোডাক্ট কার্ড দেখাতে চাইলে তার স্লাগ
 }
 
